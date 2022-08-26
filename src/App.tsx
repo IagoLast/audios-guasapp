@@ -23,6 +23,12 @@ function App() {
           src="/media/estoy_to_perdido.mp3"
           title="Estoy to perdido"
         />
+        <Audio duration="0:45" src="/media/se_fue.mp3" title="SE FUE!" />
+        <Audio
+          duration="1:20"
+          src="/media/ya_le_di_la_ostia_al_coche.mp3"
+          title="Ya le di la ostia al coche"
+        />
       </main>
     </>
   );
