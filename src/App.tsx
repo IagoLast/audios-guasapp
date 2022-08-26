@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Audio from "components/Audio";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header style={{ textAlign: "center" }}>
+        <h1> 😂 Audios Guasap 😂 </h1>
       </header>
-    </div>
+      <main
+        style={{
+          maxWidth: "530px",
+          margin: "auto",
+        }}
+      >
+        <Audio
+          duration="3:49"
+          src="/media/dani_ardeume_o_bmw.mp3"
+          title="Ardeume o BMW"
+        />
+        <Audio
+          duration="1:12"
+          src="/media/estoy_to_perdido.mp3"
+          title="Estoy to perdido"
+        />
+      </main>
+    </>
   );
 }
 
